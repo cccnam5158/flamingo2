@@ -36,7 +36,9 @@ Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 �
 * 분산 파일 시스템 관리
   * 파일 시스템 브라우저
   * Audit
-* R 및 RStudio 및 사용자 연동
+* R 및 RStudio 통합
+  * Flamingo와 RStudio SSO
+  * RHive & RHadoop 지원
 * 모니터링
   * Resource Manager
   * Namenode 및 Datanode
@@ -47,12 +49,33 @@ Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 �
   * Application 로그
   * MapReduce Job
 * Pivotal HAWQ
+  * HAWQ Query Editor
+  * Database & Table Management
+  * Role Management
+  * Query Executor
 * Apache Hive
+  * Hive Query Editor
+  * Database & Table Management
+  * Hive Metastore Integration
+  * Query Executor
 * Apache Pig
 * 워크플로우 디자이너
+  * MapReduce
+  * Hive QL
+  * Pig Latin
+  * Spark
+  * Java
+  * Python
+  * Mahout
+  * Ankus
+  * ETL
+  * UIMA
+  * Parallel Join/Fork
+* 배치 스케줄러
 * 아카이브
   * YARN Application
   * MapReduce Job
+* ggplot 기반 시각화
 * 시스템 관리
   * 메뉴 관리
   * 사용자 관리
