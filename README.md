@@ -1,10 +1,19 @@
+드디어 오래 기다리던 Flamingo 2가 5월 15일에 공개됩니다. 
+
 ## Flamingo 2 Big Data Platform
 
 Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 환경을 보다 편리하고 분석 및 개발에 집중할 수 있으면서, 다양한 사용자들이 협업할 수 있는 환경을 제공해주는 빅데이터 플랫폼입니다.
 
-![Flamingo 2](images/screenshot.jpg)
-
-![Flamingo 2](images/rstudio.png)
+![Flamingo 2](images/1.png)
+![Flamingo 2](images/2.png)
+![Flamingo 2](images/3.png)
+![Flamingo 2](images/4.png)
+![Flamingo 2](images/5.png)
+![Flamingo 2](images/6.png)
+![Flamingo 2](images/7.png)
+![Flamingo 2](images/8.png)
+![Flamingo 2](images/9.png)
+![Flamingo 2](images/10.png)
 
 ### 라이센스
 
@@ -20,6 +29,7 @@ Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 �
 * Apache Hive 0.14 이상
 * MySQL 5.1 이상 (UTF-8)
 * node.js
+* R 3.0 이상
 
 ### 제공하는 기능
 
