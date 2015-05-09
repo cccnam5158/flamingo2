@@ -14,6 +14,7 @@ Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 �
 ![Flamingo 2](images/8.png)
 ![Flamingo 2](images/9.png)
 ![Flamingo 2](images/10.png)
+![Flamingo 2](images/11.png)
 
 ### 라이센스
 
