@@ -38,6 +38,9 @@ Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 �
 * 모니터링 Agent 기능 강화
 * YARN Application 관리 기능 강화
 * 기타 모니터링 기능 강화
+* 아카이브 기능 추가
+* 리모트 터미널 추가
+* RStudio 통합 추가
 
 ### 환경 요구사항
 
