@@ -22,15 +22,33 @@ Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 �
   * 커뮤니티 라이센스 : GPL v3
   * 커머셜 라이센스 : 본 문서의 하단에 Commercial 지원 부분 참고
 
+### Flamingo 1 대비 주요 변경사항
+
+* 통계 및 차트 기능 강화
+* 시각화 기능 추가
+* Hive 관련 기능 재개발
+* Pig 관련 기능 재개발
+* HDFS 브라우저 관련 기능 재개발
+* 워크플로우 디자이너 BPM 적용 (Fork/Join, Fork시 Async/Sync, Fork시 우선수위 지정, Subflow)
+* Mahout 통합
+* Spark 지원 추가
+* Pivotal HAWQ 관련 기능 추가
+* ExtJS 4 > ExtJS 5 마이그레이션
+* 프로젝트 구성 변경
+* 모니터링 Agent 기능 강화
+* YARN Application 관리 기능 강화
+* 기타 모니터링 기능 강화
+
 ### 환경 요구사항
 
 * JDK 1.7 이상
-* Apache Tomcat 7 최신 버전
+* Apache Tomcat 7 최신 버전 (WebSocket 지원버전부터 사용해야 함)
 * Apache Hadoop 2.3 이상
 * Apache Hive 0.14 이상
 * MySQL 5.1 이상 (UTF-8)
 * node.js
 * R 3.0 이상
+* Pivotal HAWQ 1.0 이상 (PHD 2 이상)
 
 ### 제공하는 기능
 
@@ -39,7 +57,7 @@ Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 �
   * Audit
 * R 및 RStudio 통합
   * Flamingo와 RStudio SSO
-  * RHive & RHadoop 지원
+  * RHive & RHadoop 지원 (기술지원을 통해서만 가능)
 * 모니터링
   * Resource Manager
   * Namenode 및 Datanode
