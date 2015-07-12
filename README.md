@@ -12,7 +12,6 @@ Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 �
 ![Flamingo 2](images/8.png)
 ![Flamingo 2](images/9.png)
 ![Flamingo 2](images/10.png)
-![Flamingo 2](images/11.png)
 
 ### 라이센스
 
@@ -27,7 +26,7 @@ Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 �
 * Hive 관련 기능 재개발
 * Pig 관련 기능 재개발
 * HDFS 브라우저 관련 기능 재개발
-* 워크플로우 디자이너 BPM 적용 (Fork/Join, Fork시 Async/Sync, Fork시 우선수위 지정, Subflow)
+* 워크플로우 디자이너 BPM 적용
 * Mahout 통합
 * Spark 지원 추가
 * Pivotal HAWQ 관련 기능 추가
@@ -48,7 +47,7 @@ Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 �
 * Apache Hive 0.13 이상
 * MySQL 5.1 이상 (UTF-8)
 * node.js
-* R 3.0 이상
+* R 3.0
 * Pivotal HAWQ 1.0 이상 (PHD 2 이상)
 
 ### 제공하는 기능
@@ -95,7 +94,6 @@ Flamingo는 Apache Hadoop EcoSystem을 기반으로한 빅데이터 인프라 �
 * 아카이브
   * YARN Application
   * MapReduce Job
-* ggplot 기반 시각화
 * 시스템 관리
   * 메뉴 관리
   * 사용자 관리
