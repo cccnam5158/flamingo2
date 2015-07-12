@@ -1,0 +1,59 @@
+[[hive]]
+
+== Apache Hive 관리
+
+Flamingo 2는 SQL on Hadoop 중에 하나인 Hive를 지원하여 다음의 기능을 제공합니다.
+
+* Metastore 관리
+* Hive QL
+* Thift client
+
+=== 개요
+
+Apache Hive 관리 화면은 크게 두가지로 구성되어 있습니다.
+
+image::hive/hive-01.jpg[scaledwidth=100%,Hive 메인화면]
+
+좌측 메타스토어 영역, 우측 Hive쿼리 에디터 영역.
+
+메타스토어를 통해서 Hive의 Database, Table 등을 관리할 수 있고, Hive 쿼리 에디터를 사용하여 Hive쿼리 작성 및 결과를 확인할 수 있습니다.
+
+=== 알려진 문제점
+
+* Hive의 Thrift 및 Hive Server가 현재까지 성숙도가 높지 않아서 커넥션 관리를 포함한 관리 기능이 전반적으로 부족하여 사용상에 이슈가 발생할 수 있습니다.
+
+=== 메타스토어 개요
+
+Hive 메타스토어는 Database, Table, Column 세 가지 영역으로 구성되어 있습니다.
+
+* Database: Hive Database 목록, 생성, 삭제
+* Table: Hive Table 목록, 생성, 삭제, 변경
+* Column: Hive Table의 Column, Partiton의 정보 확인
+
+image::hive/hive-02.jpg[scaledwidth=100%,Hive 메타스토어]
+
+=== 데이터베이스 관리
+
+Hive 메타스토어 기능을 통해 Hive 데이터베이스를 관리할 수 있습니다.
+
+==== 데이터베이스 생성
+
+데이터베이스 목록 옆의 버튼을 클릭하면 데이터베이스 관리 메뉴가 나타납니다. "데이터베이스 생성" 버튼을 클릭합니다.
+
+image::hive/hive-03.jpg[scaledwidth=100%,Hive Database 생성]
+
+데이터베이스 생성 창이 나타나 데이터베이스 명, 상세설명 입력 후 "생성" 버튼을 클릭하면 데이터베이스가 생성됩니다.
+
+image::hive/hive-04.jpg[scaledwidth=100%,Hive Database 생성]
+
+==== 데이터베이스 삭제
+
+=== 테이블 관리
+
+==== 테이블 생성
+
+==== 테이블 삭제
+
+==== 테이블 변경
+
+=== Hive 쿼리 실행

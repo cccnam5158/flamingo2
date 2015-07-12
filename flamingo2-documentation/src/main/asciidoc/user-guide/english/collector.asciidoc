@@ -1,0 +1,14 @@
+[[etc]]
+
+== Flamingo Collector
+
+=== YARN 애플리케이션 및 MapReduce Job 수집 개수 조정하기
+
+Flmaingo Collector는 YARN 애플리케이션 및 MapReduce Job 정보를 수집하며 초기 구축시 MapReduce Job의 개수가 많은 경우 수집에 오랜 시간이 소요되므로 개수를 일시적으로 조정하여 빠르게 수집할 수 있습니다.
+
+수집 개수를 조정하기 위해서 Tomcat의 System Property에 다음과 같이 저징할 수 있습니다. 지정하지 않는다면 기본값은 모두 5가 적용됩니다.
+
+[source]
+----
+CATALINA_OPTS="-Dcollector -Dyarn.app.count=5 -Dmapreduce.job.count=100 -Xms256m -Xmx256m"
+----

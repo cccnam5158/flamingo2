@@ -1,0 +1,28 @@
+[[pig]]
+
+== Apache Pig
+
+Flamingo 2는 Apache Pig를 지원하여 다음의 기능을 제공합니다.
+
+* Pig Latin Script 편집기
+* Pig 실행로그 확인
+
+=== 개요
+
+Apache Pig Latin 편집기는 2가지 영역으로 나뉘어져 있습니다.
+
+첫 번째 Pig Latin Script 편집기를 활용하여 Pig 스크립트를 작성할 수 있습니다.
+
+두 번째 실행로그 확인 창은 Pig Latin Script를 실행하는 실행로그를 확인할 수 있습니다.
+
+image::pig/pig-01.png[scaledwidth=100%,Apache Pig 메인 화면]
+
+=== 사용방법
+
+사용방법은 아주 간단합니다. Pig Latin Script 편집기를 통해 Pig Script를 작성한 후 "쿼리실행" 버튼을 클릭하면 Pig Sciprt가 실행이 됩니다.
+
+Apache Pig는 SQL On Hadoop처럼 결과를 별도로 확인 하는 것이 아니라 별도로 파일에 저장하거나 로그를 통해서 확인을 해야 합니다.
+
+Pig Latin의 DUMP 명령어를 사용하면 로그에 해당 결과값을 표시할 수 있습니다.
+
+image::pig/pig-02.png[scaledwidth=100%,Apache Pig 메인 화면]

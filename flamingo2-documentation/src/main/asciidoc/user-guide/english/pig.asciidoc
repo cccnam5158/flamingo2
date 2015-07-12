@@ -1,0 +1,25 @@
+[[pig]]
+
+== Apache Pig
+
+Flamingo 2는 SQL on Hadoop 중에 하나인 Pivotal HAWQ를 지원하여 다음의 기능을 제공합니다.
+
+* 여기에 큰 기능
+** 작은 기능
+
+=== 큰 기능
+
+MapReduce Job의 Job ID를 추출하는 모니터링 에이전트는 다음을 대상으로 동작합니다.
+
+image::hive/hive-01.png[scaledwidth=100%,Apache Hive 지원 기능의 메인 화면]
+
+* MapReduce Job
+* Pig Latin
+* Hive QL
+
+[source,sql]
+----
+export HADOOP_CLIENT_OPTS=-javaagent:flamingo2-hadoop2-mr-agent-2.0.0.jar=resourcescript:mr2.bm
+----
+
+
