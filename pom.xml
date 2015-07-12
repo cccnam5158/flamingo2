@@ -821,8 +821,8 @@
     </distributionManagement>
 
     <issueManagement>
-        <system>Github Issues</system>
-        <url>https://github.com/OpenCloudEngine/flamingo2/issues</url>
+        <system>Atlassian JIRA</system>
+        <url>http://jira.opencloudengine.org/browse/FL</url>
     </issueManagement>
 
     <organization>
