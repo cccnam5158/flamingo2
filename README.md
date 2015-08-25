@@ -118,3 +118,7 @@ Cloudine Inc는 2011년부터 빅데이터 플랫폼 SW를 오픈소스로 개�
 플랫폼 개발, Hadoop 엔지니어링, 데이터 분석(R, 데이터마이닝), 데이터 처리(MR ETL) 등의 업무를 수행하고 있으며 오픈소스를 개발하고 있습니다.
 Hadoop 배포판 파트너로는 Pivotal이 있으며 Pivotal HD의 기술지원(설치, 운영, 장애 등등)을 서비스를 한국에서 제공하고 있습니다.
 Flamingo, Bahamas 등의 오픈소스 프로젝트를 수행하고 있는 커미터는 Spring, ExtJS, Hadoop 부분에 전문가로써 관련 기술들을 Flamingo와 Bahamas에 적용하고 있습니다.
+
+### 저작권 공지
+
+Flamingo의 Workflow Designer에 포함되어 있는 모듈중 Ankus는 ONYCOM에서 저작권을 가지며 오픈소스로 공개한 모듈입니다. 특히 Flamingo에 포함되어 있는 Ankus는 0.1 버전으로 Apache 2 라이센스를 따릅니다.
