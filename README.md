@@ -121,4 +121,4 @@ Flamingo, Bahamas 등의 오픈소스 프로젝트를 수행하고 있는 커미
 
 ### 저작권 공지
 
-Flamingo의 Workflow Designer에 포함되어 있는 모듈중 Ankus는 ONYCOM에서 저작권을 가지며 오픈소스로 공개한 모듈입니다. 특히 Flamingo에 포함되어 있는 Ankus는 0.1 버전으로 Apache 2 라이센스를 따릅니다.
+Flamingo의 Workflow Designer에 포함되어 있는 모듈중 Ankus는 ONYCOM에서 저작권을 가지며 오픈소스로 공개한 모듈입니다. 특히 Flamingo에 포함되어 있는 Ankus는 0.1 버전으로 Apache 2 라이센스를 따릅니다. Flamingo에서 상위 버전의 Ankus 지원을 위해서 제외하기로 결정하였고, 사용자가 Ankus를 다운로드하여 config.properties 파일에 위치를 지정하도록 변경할 예정입니다.
